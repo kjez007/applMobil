@@ -74,15 +74,7 @@ export default function Suivant() {
             Consultez l'historique de vos épargnes et versements pour une meilleure gestion.
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.featureItem}
-          activeOpacity={0.8}
-        >
-          <Text style={styles.featureTitle}>Rapports détaillés</Text>
-          <Text style={styles.featureDescription}>
-            Obtenez des rapports clairs pour une meilleure prise de décision.
-          </Text>
-        </TouchableOpacity>
+        
       </View>
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText} onPress={() =>  router.push("/(tabs)/explore")}>En savoir plus</Text>
