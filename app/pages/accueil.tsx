@@ -69,7 +69,7 @@ export default function Suivant() {
           activeOpacity={0.8}
           onPress={() => router.push("/pages/autres/historique")} // Ajout de la navigation vers historique
         >
-          <Text style={styles.featureTitle}>Mes épargnes</Text>
+          <Text style={styles.featureTitle}>Mes Activites</Text>
           <Text style={styles.featureDescription}>
             Consultez l'historique de vos épargnes et versements pour une meilleure gestion.
           </Text>
