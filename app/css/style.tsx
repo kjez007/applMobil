@@ -1,0 +1,55 @@
+import { StyleSheet } from "react-native";
+export default StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+      backgroundColor: "#F5F5F5",
+      backgroundPosition:"center"
+    },
+    overlay: {
+      backgroundColor: "rgba(255, 255, 255, 0.95)",
+      padding: 50,
+      borderRadius: 25,
+      alignItems: "center",
+      shadowColor: "#000",
+      shadowOffset: { width: 0, height: 8 },
+      shadowOpacity: 0.4,
+      shadowRadius: 8,
+      elevation: 12,
+    },
+    title: {
+      fontSize: 42,
+      fontWeight: "bold",
+      color: "#1A1A1A",
+      textAlign: "center",
+      marginBottom: 20,
+      textShadowColor: "rgba(0, 0, 0, 0.4)",
+      textShadowOffset: { width: 2, height: 2 },
+      textShadowRadius: 5,
+    },
+    subtitle: {
+      fontSize: 22,
+      color: "#555",
+      textAlign: "center",
+      marginBottom: 30,
+      lineHeight: 30,
+    },
+    button: {
+      backgroundColor: "#007BFF",
+      paddingVertical: 15,
+      paddingHorizontal: 50,
+      borderRadius: 12,
+      alignItems: "center",
+      shadowColor: "#000",
+      shadowOffset: { width: 0, height: 6 },
+      shadowOpacity: 0.3,
+      shadowRadius: 6,
+      elevation: 10,
+    },
+    buttonText: {
+      color: "#FFF",
+      fontSize: 20,
+      fontWeight: "600",
+    },
+  });
